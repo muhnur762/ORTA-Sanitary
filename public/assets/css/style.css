@@ -1,0 +1,22 @@
+/* Font */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100&display=swap');
+
+:root{
+    --main-color:#0f5a88;
+
+}
+
+/* body */
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.nav-link{
+    color: var(--main-color);
+    font-weight: 600;
+
+}
+.nav-link:hover{
+    color: #a0a0a0;
+
+}
