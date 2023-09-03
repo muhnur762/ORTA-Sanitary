@@ -8,4 +8,8 @@ class Home extends BaseController
     {
         return view('landingPage_v');
     }
+    public function manufactur()
+    {
+        return view('manufactur_v');
+    }
 }
