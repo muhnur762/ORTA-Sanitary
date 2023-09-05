@@ -45,7 +45,7 @@
         <!-- Draying -->
         <div class="row">
             <div class="col-6  text-end" data-aos="zoom-in" data-aos-duration="1500">
-                <img src="<?= base_url('assets/image/logo/defauld.jpg'); ?>" class="img-fluid w-50 rounded" alt="manufactur Image">
+                <img src="<?= base_url('assets/image/product/draying.png'); ?>" class="img-fluid w-50 rounded" alt="manufactur Image">
             </div>
             <div class="col-6 d-grid align-content-center mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
                 <h3 class="p-color  text-lg-start text-md-start text-center fw-semibold">
@@ -62,14 +62,14 @@
                 </h3>
             </div>
             <div class=" col-6" data-aos="zoom-in" data-aos-duration="1500">
-                <img src="<?= base_url('assets/image/logo/defauld.jpg'); ?>" class="img-fluid rounded w-50" alt="manufactur Image">
+                <img src="<?= base_url('assets/image/product/inspection.png'); ?>" class="img-fluid rounded w-50" alt="manufactur Image">
             </div>
         </div>
 
         <!--Glazing -->
         <div class="row">
             <div class="col-6 text-end" data-aos="zoom-in" data-aos-duration="1500">
-                <img src="<?= base_url('assets/image/logo/defauld.jpg'); ?>" class="img-fluid w-50 rounded" alt="manufactur Image">
+                <img src="<?= base_url('assets/image/product/glazing.png'); ?>" class="img-fluid w-50 rounded" alt="manufactur Image">
             </div>
             <div class="col-6 order-lg-1 order-md-1 order-sm-0 d-grid align-content-center mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
                 <h3 class="p-color  text-lg-start text-md-start text-center fw-semibold">
@@ -86,14 +86,14 @@
                 </h3>
             </div>
             <div class=" col-6" data-aos="zoom-in" data-aos-duration="1500">
-                <img src="<?= base_url('assets/image/logo/defauld.jpg'); ?>" class="img-fluid rounded w-50" alt="manufactur Image">
+                <img src="<?= base_url('assets/image/product/loading.png'); ?>" class="img-fluid rounded w-50" alt="manufactur Image">
             </div>
         </div>
 
         <!-- Firing -->
         <div class="row">
             <div class="col-6 text-end" data-aos="zoom-in" data-aos-duration="1500">
-                <img src="<?= base_url('assets/image/logo/defauld.jpg'); ?>" class="img-fluid w-50 rounded" alt="manufactur Image">
+                <img src="<?= base_url('assets/image/product/firing.png'); ?>" class="img-fluid w-50 rounded" alt="manufactur Image">
             </div>
             <div class="col-6 d-grid align-content-center mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
                 <h3 class="p-color  text-lg-start text-md-start text-center fw-semibold">
@@ -143,7 +143,7 @@
 <!-- End Product -->
 
 <!-- Waranty -->
-<section class="pt-5 vh-100" id="waranty">
+<!-- <section class="pt-5 vh-100" id="waranty">
     <div class="container">
         <div class="mt-5 row gap-1 w-75 mx-auto">
             <div class="col-12">
@@ -172,7 +172,7 @@
             <img src="<?= base_url('assets/image/logo/iso-cer.png'); ?>" class="img-fluid col-6 col-lg-3 col-md-6 p-0" alt="Certificate Image">
         </div>
     </div>
-</section>
+</section> -->
 <!-- End Waranty -->
 
 <!-- end template session -->

@@ -62,7 +62,7 @@
 <section class="pt-5" id="product">
     <div class="container">
         <h2 class="text-center p-color py-5">
-            Produk Kami
+            Produk Orta
         </h2>
 
         <!-- Primo -->
@@ -80,11 +80,15 @@
                             Toilet Jongkok
                         </h4>
                         <p class="fs-5 fw-light text-end">
-                            Toilet jongkok dengan desain
+                            Toilet Jongkok hadir dengan ukuran
+                            yang lebih besar untuk melengkapi kebutuhan
+                            sanitasi anda. Kini hadir dengan
+                            variasi warna yang lebih lengkap.
+                            <!-- Toilet jongkok dengan desain
                             minimalis dan saluran air
                             berbentuk
                             corong. Tersedia dengan variasi
-                            warna yang lebih lengkap
+                            warna yang lebih lengkap -->
                         </p>
                     </div>
                 </div>
@@ -200,7 +204,7 @@
 <!-- End Product -->
 
 <!-- Waranty -->
-<section class="pt-5 vh-100" id="waranty">
+<!-- <section class="pt-5 vh-100" id="waranty">
     <div class="container">
         <div class="mt-5 row gap-1 w-75 mx-auto">
             <div class="col-12">
@@ -229,7 +233,7 @@
             <img src="<?= base_url('assets/image/logo/iso-cer.png'); ?>" class="img-fluid col-6 col-lg-3 col-md-6 p-0" alt="Certificate Image">
         </div>
     </div>
-</section>
+</section> -->
 <!-- End Waranty -->
 
 <!-- end template session -->

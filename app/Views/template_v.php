@@ -13,7 +13,7 @@
     <!-- Bootstrap  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Data Aos -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
     <!-- my css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- my icont -->
@@ -38,15 +38,29 @@
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 align-items-center gap-3 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#waranty">Home</a>
+                            </li>
+
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#product" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Tentang Kami
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="/#about" class="dropdown-item">Orta</a></li>
+                                    <li><a href="/#about" class="dropdown-item">About Orta</a></li>
                                     <li><a href="/manufactur" class="dropdown-item">Manufacturing</a></li>
                                 </ul>
                             </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#product" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    What We Do
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/#about" class="dropdown-item">CSR program</a></li>
+                                    <li><a href="/manufactur" class="dropdown-item">Our Projects</a></li>
+                                </ul>
+                            </li>
+
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#product" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Produk
@@ -118,8 +132,11 @@
                                 <li class="my-3">
                                     <a href="https://instagram.com/orta.sanitary" target="_blank " class="text-white fw-light text-decoration-none"><i class="bi bi-instagram"></i> @orta.sanitary</a>
                                 </li>
+                                <li class="my-3">
+                                    <a href="mailto: sales@orta.co.id" target="_blank " class="text-white fw-light text-decoration-none"><i class="bi bi-envelope"></i> sales@orta.co.id</a>
+                                </li>
                                 <li class="my-0">
-                                    <p class="text-white fw-light "><span class="fw-bold">PT KARYA BUMIMAS PERSADA</span> <br> Kp. Cibugis RT 05/06 <br> Klapanunggal, Kab. Bogor <br>Jawa Barat</p>
+                                    <p class="text-white fw-light "><span class="fw-bold">PT KARYA BUMIMAS PERSADA</span> <br>Klapanunggal, cibugis rt/rw 05/06 Klp. Nunggal, Kp. Parung Jambu, Klapanunggal, Kec. Klapanunggal, Kabupaten Bogor, Jawa Barat 16710.
                                 </li>
                             </ul>
                         </div>
