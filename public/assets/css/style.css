@@ -1,9 +1,21 @@
 /* Font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
 :root {
   --main-color: #145a88;
   --secondary-color: #96999f;
 }
+
+/* body{
+  background-color: #FAFAFA;
+}
+E6FFFF
+
+CCE6E6
+
+D3D3D3
+
+FAFAFA */
 
 /* custom classes */
 .p-color {
@@ -22,6 +34,19 @@
   font-size: 3rem;
 }
 
+.w-70 {
+  width: 70%;
+}
+
+.pt-10 {
+  padding-top: 60px;
+}
+
+.pc {
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
 /* body */
 body {
   font-family: "Poppins", sans-serif;
@@ -31,14 +56,17 @@ body {
 nav {
   background-color: #fff;
 }
+
 .nav-link,
 .dropdown-item {
   color: var(--main-color);
   font-weight: 400;
 }
+
 .nav-link:hover {
   color: var(--secondary-color);
 }
+
 .btn-catalogue {
   background-color: var(--main-color);
 }
@@ -54,13 +82,17 @@ nav {
   max-height: 75vh;
 }
 
+.img-color {
+  width: 65%;
+}
+
 /* Footer */
 
 footer {
   background-color: var(--main-color);
 }
 
-.footer-item > li > a:hover {
+.footer-item>li>a:hover {
   color: var(--secondary-color);
 }
 
@@ -69,18 +101,22 @@ footer {
     font-size: 80%;
   }
 
-  #home > .row > .col-lg-6 {
+  #home>.row>.col-lg-6 {
     text-align: center;
   }
 
-  #home > .row > .col-lg-6 > p,
-  #home > .row > .col-lg-6 > a,
+  #home>.row>.col-lg-6>p,
+  #home>.row>.col-lg-6>a,
   .bg-ornament {
     margin: 0 auto;
   }
 
   .img-cover {
     border-bottom-left-radius: 0;
+  }
+
+  .img-color {
+    width: 100%;
   }
 
   #about {
