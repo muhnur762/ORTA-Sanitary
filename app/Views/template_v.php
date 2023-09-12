@@ -14,6 +14,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Data Aos -->
     <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
     <!-- my css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- my icont -->
@@ -25,7 +28,7 @@
     <section>
         <nav class="navbar navbar-expand-lg fixed-top shadow py-3">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="../">
                     <img src="<?= base_url('assets/image/logo.png'); ?>" alt="Bootstrap" height="24">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
@@ -39,7 +42,7 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 align-items-center gap-3 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link" href="#waranty">Home</a>
+                                <a class="nav-link" href="../">Home</a>
                             </li>
 
                             <li class="nav-item dropdown">
@@ -47,7 +50,7 @@
                                     Tentang Kami
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="/#about" class="dropdown-item">About Orta</a></li>
+                                    <li><a href="/about" class="dropdown-item">About Orta</a></li>
                                     <li><a href="/manufactur" class="dropdown-item">Manufacturing</a></li>
                                 </ul>
                             </li>
@@ -56,7 +59,7 @@
                                     What We Do
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="/#about" class="dropdown-item">CSR program</a></li>
+                                    <li><a href="/about" class="dropdown-item">CSR program</a></li>
                                     <li><a href="/manufactur" class="dropdown-item">Our Projects</a></li>
                                 </ul>
                             </li>
@@ -66,14 +69,11 @@
                                     Produk
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="/#primo" class="dropdown-item">Primo</a></li>
-                                    <li><a href="/#savio" class="dropdown-item">Savio</a></li>
-                                    <li><a href="/#serio" class="dropdown-item">Serio</a></li>
-                                    <li><a href="/#senza" class="dropdown-item">Senza</a></li>
+                                    <li><a href="/about#primo" class="dropdown-item">Primo</a></li>
+                                    <li><a href="/about#savio" class="dropdown-item">Savio</a></li>
+                                    <li><a href="/about#serio" class="dropdown-item">Serio</a></li>
+                                    <li><a href="/about#senza" class="dropdown-item">Senza</a></li>
                                 </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#waranty">Garansi</a>
                             </li>
                             <li class="nav-item">
                                 <a href="<?= base_url('assets/docs/katalog.pdf'); ?>" target="_blank" class="btn btn-primary btn-catalogue px-4 m-1 rounded-pill">Katalog</a>
@@ -106,18 +106,17 @@
                         <div class="col-12 col-md-3 col-lg-3 order-2 py-3">
                             <h5 class="fw-normal">Menu</h5>
                             <ul class="list-unstyled">
-                                <li class="my-3"><a href="#home" class="text-white fw-light text-decoration-none">Beranda</a></li>
-                                <li class="my-3"><a href="#about" class="text-white fw-light text-decoration-none">Tentang Kami</a></li>
-                                <li class="my-3"><a href="#waranty" class="text-white fw-light text-decoration-none">Garansi</a></li>
+                                <li class="my-3"><a href="../" class="text-white fw-light text-decoration-none">Beranda</a></li>
+                                <li class="my-3"><a href="/about" class="text-white fw-light text-decoration-none">Tentang Kami</a></li>
                             </ul>
                         </div>
                         <div class="col-12 col-md-3 col-lg-3 order-3 py-3">
                             <h5 class="fw-normal">Produk</h5>
                             <ul class="list-unstyled">
-                                <li class="my-3"><a href="#primo" class="text-white fw-light text-decoration-none">Primo</a></li>
-                                <li class="my-3"><a href="#savio" class="text-white fw-light text-decoration-none">Savio</a></li>
-                                <li class="my-3"><a href="#serio" class="text-white fw-light text-decoration-none">Serio</a></li>
-                                <li class="my-3"><a href="#senza" class="text-white fw-light text-decoration-none">Senza</a></li>
+                                <li class="my-3"><a href="about/#primo" class="text-white fw-light text-decoration-none">Primo</a></li>
+                                <li class="my-3"><a href="about/#savio" class="text-white fw-light text-decoration-none">Savio</a></li>
+                                <li class="my-3"><a href="about/#serio" class="text-white fw-light text-decoration-none">Serio</a></li>
+                                <li class="my-3"><a href="about/#senza" class="text-white fw-light text-decoration-none">Senza</a></li>
                             </ul>
                         </div>
                         <div class="col-12 col-md-4 col-lg-4 order-4 py-3">
@@ -152,6 +151,7 @@
     </footer>
     <!-- End Footer -->
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <!-- Data Aos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

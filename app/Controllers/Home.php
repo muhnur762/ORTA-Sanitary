@@ -6,7 +6,11 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('landingPage_v');
+        return view('home_v');
+    }
+    public function about()
+    {
+        return view('about_v');
     }
     public function manufactur()
     {
