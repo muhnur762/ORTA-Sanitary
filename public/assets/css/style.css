@@ -47,6 +47,15 @@ FAFAFA */
   padding-bottom: 20px;
 }
 
+.w-40 {
+  width: 40%;
+}
+
+.btn-color {
+  background: none;
+  border: none;
+}
+
 /* body */
 body {
   font-family: "Poppins", sans-serif;
@@ -86,13 +95,19 @@ nav {
   width: 65%;
 }
 
+/* Product */
+.thumb > button > img:hover {
+  border-radius: 50%;
+  box-shadow: rgba(20, 90, 136, 0.5) 0px 0px 0px 2px;
+}
+
 /* Footer */
 
 footer {
   background-color: var(--main-color);
 }
 
-.footer-item>li>a:hover {
+.footer-item > li > a:hover {
   color: var(--secondary-color);
 }
 
@@ -101,12 +116,12 @@ footer {
     font-size: 80%;
   }
 
-  #home>.row>.col-lg-6 {
+  #home > .row > .col-lg-6 {
     text-align: center;
   }
 
-  #home>.row>.col-lg-6>p,
-  #home>.row>.col-lg-6>a,
+  #home > .row > .col-lg-6 > p,
+  #home > .row > .col-lg-6 > a,
   .bg-ornament {
     margin: 0 auto;
   }
