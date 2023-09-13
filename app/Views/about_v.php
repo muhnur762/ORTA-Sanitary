@@ -16,7 +16,7 @@
 
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 img-wrapper" data-aos="zoom-in" data-aos-duration="1500">
-                <img src="<?= base_url('assets/image/cover/about-cover.png'); ?>" class="img-fluid rounded" alt="Cover Image" style="box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;">
+                <img src="<?= base_url('assets/image/cover/about-cover.jpg'); ?>" class="img-fluid rounded" alt="Cover Image" style="box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;">
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 pe-0 pt-5 pt-lg-0 " data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
                 <h3 class="p-color">
