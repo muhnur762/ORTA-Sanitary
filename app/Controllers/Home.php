@@ -16,4 +16,8 @@ class Home extends BaseController
     {
         return view('manufactur_v');
     }
+    public function wwd()
+    {
+        return view('wwd_v');
+    }
 }
