@@ -15,8 +15,8 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12 img-wrapper text-center" data-aos="zoom-in" data-aos-duration="1500">
-                <img src="<?= base_url('assets/image/cover/about-cover.jpg'); ?>" class="img-fluid rounded" alt="Cover Image" style="box-shadow: -2px 4px 5px 1px rgba(0, 0, 0, 0.3);">
+            <div class="col-lg-6 col-md-12 col-sm-12 img-wrapper" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="<?= base_url('assets/image/cover/about-cover.jpg'); ?>" class="img-fluid rounded" alt="Cover Image" style="box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;">
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 pe-0 pt-5 pt-lg-0 " data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
                 <h3 class="p-color">
@@ -39,7 +39,7 @@
 <!-- End About -->
 
 <!-- Product -->
-<section class="pt-5" id="product">
+<section class="py-5" id="product">
     <div class="container">
         <h2 class="text-center p-color pt-5">
             Produk Orta
@@ -64,28 +64,36 @@
                             yang lebih besar untuk melengkapi kebutuhan
                             sanitasi anda. Kini hadir dengan
                             variasi warna yang lebih lengkap.
-                            <!-- Toilet jongkok dengan desain
-                            minimalis dan saluran air
-                            berbentuk
-                            corong. Tersedia dengan variasi
-                            warna yang lebih lengkap -->
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 order-0 order-lg-1 order-sm-1 text-center" data-aos="zoom-in" data-aos-duration="1500">
-                <img src="<?= base_url('assets/image/product/primo-toilet.png'); ?>" class="img-fluid rounded w-70" alt="Product Image">
+                <img src="<?= base_url('assets/image/product-color/putih.jpg'); ?>" class="img-product img-fluid rounded w-70" id="img-primo" alt="Product Image">
             </div>
             <div class="row w-50 mx-auto order-2 order-sm-2 pt-5 text-center" data-aos="fade-up" data-aos-duration="1500">
-                <h3 class="p-color">Tersedia dalam 6 Warna</h3>
-                <img src="<?= base_url('assets/image/product/color-6.png'); ?>" class="img-fluid mx-auto img-color" alt="color">
+                <h3 class="p-color">Tersedia dalam 4 Warna</h3>
+                <div class="row w-70 mx-auto thumb" id="thumb-primo">
+                    <button class="btn-color col-3 pe-0" data-src="<?= base_url('assets/image/product-color/putih.jpg'); ?>">
+                        <img src="<?= base_url('assets/image/color/putih.png'); ?>" class="img-fluid img-color " alt="color">
+                    </button>
+                    <button class="btn-color col-3 ps-0" data-src="<?= base_url('assets/image/product-color/biru.jpg'); ?>">
+                        <img src="<?= base_url('assets/image/color/biru.png'); ?>" class="img-fluid img-color " alt="color">
+                    </button>
+                    <button class="btn-color col-3 ps-0" data-src="<?= base_url('assets/image/product-color/pink.jpg'); ?>">
+                        <img src="<?= base_url('assets/image/color/pink.png'); ?>" class="img-fluid img-color " alt="color">
+                    </button>
+                    <button class="btn-color col-3 ps-0" data-src="<?= base_url('assets/image/product-color/merah.jpg'); ?>">
+                        <img src="<?= base_url('assets/image/color/merah.png'); ?>" class="img-fluid img-color " alt="color">
+                    </button>
+                </div>
             </div>
         </div>
 
         <!-- Savio -->
         <div class="row pc" id="savio">
             <div class="col-lg-6 col-md-6 col-sm-12 order-lg-0 order-md-0 order-sm-1 text-center" data-aos="zoom-in" data-aos-duration="1500">
-                <img src="<?= base_url('assets/image/product/savio-toilet.png'); ?>" class="img-fluid w-70 rounded" alt="Product Image">
+                <img src="<?= base_url('assets/image/product-color/biru.jpg'); ?>" class="img-fluid w-70 rounded" id="img-savio" alt="Product Image">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 order-lg-1 order-md-1 order-sm-0 d-grid align-content-center mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
                 <h1 class="p-color fs-heading text-lg-start text-md-start text-center fw-semibold">
@@ -109,8 +117,21 @@
                 </div>
             </div>
             <div class="row w-50 mx-auto order-2 order-sm-2 pt-5 text-center" data-aos="fade-up" data-aos-duration="1500">
-                <h3 class="p-color">Tersedia dalam 6 Warna</h3>
-                <img src="<?= base_url('assets/image/product/color-6.png'); ?>" class="img-fluid mx-auto img-color" alt="">
+                <h3 class="p-color">Tersedia dalam 4 Warna</h3>
+                <div class="row w-70 mx-auto thumb" id="thumb-savio">
+                    <button class="btn-color col-3 pe-0" data-src="<?= base_url('assets/image/product-color/putih.jpg'); ?>">
+                        <img src="<?= base_url('assets/image/color/putih.png'); ?>" class="img-fluid img-color " alt="color">
+                    </button>
+                    <button class="btn-color col-3 ps-0" data-src="<?= base_url('assets/image/product-color/biru.jpg'); ?>">
+                        <img src="<?= base_url('assets/image/color/biru.png'); ?>" class="img-fluid img-color " alt="color">
+                    </button>
+                    <button class="btn-color col-3 ps-0" data-src="<?= base_url('assets/image/product-color/pink.jpg'); ?>">
+                        <img src="<?= base_url('assets/image/color/pink.png'); ?>" class="img-fluid img-color " alt="color">
+                    </button>
+                    <button class="btn-color col-3 ps-0" data-src="<?= base_url('assets/image/product-color/merah.jpg'); ?>">
+                        <img src="<?= base_url('assets/image/color/merah.png'); ?>" class="img-fluid img-color " alt="color">
+                    </button>
+                </div>
             </div>
         </div>
 
@@ -139,18 +160,31 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 order-0 order-lg-1 order-sm-1 text-center" data-aos="zoom-in" data-aos-duration="1500">
-                <img src="<?= base_url('assets/image/product/serio-toilet.png'); ?>" class="img-fluid w-70 rounded" alt="Product Image">
+                <img src="<?= base_url('assets/image/product-color/pink.jpg'); ?>" class="img-fluid w-70 rounded" id="img-serio" alt="Product Image">
             </div>
             <div class="row w-50 mx-auto order-2 order-sm-2 pt-5 text-center" data-aos="fade-up" data-aos-duration="1500">
-                <h3 class="p-color">Tersedia dalam 6 Warna</h3>
-                <img src="<?= base_url('assets/image/product/color-6.png'); ?>" class="img-fluid mx-auto img-color" alt="">
+                <h3 class="p-color">Tersedia dalam 4 Warna</h3>
+                <div class="row w-70 mx-auto thumb" id="thumb-serio">
+                    <button class="btn-color col-3 pe-0" data-src="<?= base_url('assets/image/product-color/putih.jpg'); ?>">
+                        <img src="<?= base_url('assets/image/color/putih.png'); ?>" class="img-fluid img-color " alt="color">
+                    </button>
+                    <button class="btn-color col-3 ps-0" data-src="<?= base_url('assets/image/product-color/biru.jpg'); ?>">
+                        <img src="<?= base_url('assets/image/color/biru.png'); ?>" class="img-fluid img-color " alt="color">
+                    </button>
+                    <button class="btn-color col-3 ps-0" data-src="<?= base_url('assets/image/product-color/pink.jpg'); ?>">
+                        <img src="<?= base_url('assets/image/color/pink.png'); ?>" class="img-fluid img-color " alt="color">
+                    </button>
+                    <button class="btn-color col-3 ps-0" data-src="<?= base_url('assets/image/product-color/merah.jpg'); ?>">
+                        <img src="<?= base_url('assets/image/color/merah.png'); ?>" class="img-fluid img-color " alt="color">
+                    </button>
+                </div>
             </div>
         </div>
 
         <!-- Senza -->
-        <div class="row pc mb-5" id="senza">
-            <div class="col-lg-6 col-md-6 col-sm-12 order-lg-0 order-md-0 order-sm-1 text-center" data-aos="zoom-in" data-aos-duration="1500">
-                <img src="<?= base_url('assets/image/product/senza-toilet.png'); ?>" class="img-fluid w-70 rounded" alt="Product Image">
+        <div class="row pc" id="senza">
+            <div  class="col-lg-6 col-md-6 col-sm-12 order-lg-0 order-md-0 order-sm-1 text-center" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="<?= base_url('assets/image/product-color/duduk-putih.jpg'); ?>" class="img-fluid w-70 rounded" id="img-senza" alt="Detail Product">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 order-lg-1 order-md-1 order-sm-0 my-auto mt-3" data-aos="zoom-in" data-aos-duration="1500">
                 <h1 class="p-color fs-heading text-lg-start text-md-start text-center fw-semibold">
@@ -176,7 +210,14 @@
             </div>
             <div class="row w-50 mx-auto order-2 order-sm-2 pt-5 text-center" data-aos="fade-up" data-aos-duration="1500">
                 <h3 class="p-color">Tersedia dalam 2 Warna</h3>
-                <img src="<?= base_url('assets/image/product/color-2.png'); ?>" class="img-fluid mx-auto img-color  " alt="">
+                <div class="row w-40 mx-auto thumb" id="thumb-senza">
+                    <button class="btn-color col-6 pe-0" data-src="<?= base_url('assets/image/product-color/duduk-putih.jpg'); ?>">
+                        <img src="<?= base_url('assets/image/color/putih.png'); ?>" class="img-fluid img-color " alt="color">
+                    </button>
+                    <button class="btn-color col-6 ps-0" data-src="<?= base_url('assets/image/product-color/duduk-biru.jpg'); ?>">
+                        <img src="<?= base_url('assets/image/color/biru.png'); ?>" class="img-fluid img-color " alt="color">
+                    </button>
+                </div>
             </div>
         </div>
     </div>
