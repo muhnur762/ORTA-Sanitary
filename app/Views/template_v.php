@@ -115,10 +115,10 @@
                         <div class="col-12 col-md-3 col-lg-3 order-3 py-3">
                             <h5 class="fw-normal">Product</h5>
                             <ul class="list-unstyled">
-                                <li class="my-3"><a href="about/#primo" class="text-white fw-light text-decoration-none">Primo</a></li>
-                                <li class="my-3"><a href="about/#savio" class="text-white fw-light text-decoration-none">Savio</a></li>
-                                <li class="my-3"><a href="about/#serio" class="text-white fw-light text-decoration-none">Serio</a></li>
-                                <li class="my-3"><a href="about/#senza" class="text-white fw-light text-decoration-none">Senza</a></li>
+                                <li class="my-3"><a href="/about#primo" class="text-white fw-light text-decoration-none">Primo</a></li>
+                                <li class="my-3"><a href="/about#savio" class="text-white fw-light text-decoration-none">Savio</a></li>
+                                <li class="my-3"><a href="/about#serio" class="text-white fw-light text-decoration-none">Serio</a></li>
+                                <li class="my-3"><a href="/about#senza" class="text-white fw-light text-decoration-none">Senza</a></li>
                             </ul>
                         </div>
                         <div class="col-12 col-md-4 col-lg-4 order-4 py-3">
