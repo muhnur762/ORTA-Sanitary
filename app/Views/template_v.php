@@ -13,7 +13,7 @@
     <!-- Bootstrap  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Data Aos -->
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
@@ -28,7 +28,7 @@
     <section>
         <nav class="navbar navbar-expand-lg fixed-top shadow py-3">
             <div class="container">
-                <a class="navbar-brand" href="../">
+                <a class="navbar-brand" href="/">
                     <img src="<?= base_url('assets/image/logo.png'); ?>" alt="Bootstrap" height="24">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
@@ -47,7 +47,7 @@
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#product" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Tentang Kami
+                                    About Us
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a href="/about" class="dropdown-item">About Orta</a></li>
@@ -59,14 +59,14 @@
                                     What We Do
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="/about" class="dropdown-item">CSR program</a></li>
-                                    <li><a href="/manufactur" class="dropdown-item">Our Projects</a></li>
+                                    <li><a href="/wwd" class="dropdown-item">CSR program</a></li>
+                                    <li><a href="/wwd" class="dropdown-item">Our Projects</a></li>
                                 </ul>
                             </li>
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#product" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Produk
+                                    Product
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a href="/about#primo" class="dropdown-item">Primo</a></li>
@@ -106,12 +106,14 @@
                         <div class="col-12 col-md-3 col-lg-3 order-2 py-3">
                             <h5 class="fw-normal">Menu</h5>
                             <ul class="list-unstyled">
-                                <li class="my-3"><a href="../" class="text-white fw-light text-decoration-none">Beranda</a></li>
-                                <li class="my-3"><a href="/about" class="text-white fw-light text-decoration-none">Tentang Kami</a></li>
+                                <li class="my-3"><a href="/" class="text-white fw-light text-decoration-none">Home</a></li>
+                                <li class="my-3"><a href="/about" class="text-white fw-light text-decoration-none">About Orta</a></li>
+                                <li class="my-3"><a href="/about" class="text-white fw-light text-decoration-none">Manufacturing</a></li>
+                                <li class="my-3"><a href="/wwd" class="text-white fw-light text-decoration-none">What We Do</a></li>
                             </ul>
                         </div>
                         <div class="col-12 col-md-3 col-lg-3 order-3 py-3">
-                            <h5 class="fw-normal">Produk</h5>
+                            <h5 class="fw-normal">Product</h5>
                             <ul class="list-unstyled">
                                 <li class="my-3"><a href="about/#primo" class="text-white fw-light text-decoration-none">Primo</a></li>
                                 <li class="my-3"><a href="about/#savio" class="text-white fw-light text-decoration-none">Savio</a></li>
@@ -120,7 +122,7 @@
                             </ul>
                         </div>
                         <div class="col-12 col-md-4 col-lg-4 order-4 py-3">
-                            <h5 class="fw-normal">Kontak Kami</h5>
+                            <h5 class="fw-normal">Contact Us</h5>
                             <ul class="list-unstyled">
                                 <li class="my-3">
                                     <p class="text-white fw-light"><i class="bi bi-globe2"></i> www.orta.co.id</p>

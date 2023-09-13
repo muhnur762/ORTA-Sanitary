@@ -7,19 +7,25 @@
 <!-- About -->
 <section id="about" class="h-100 mb-5">
     <div class="container pt-10">
-        <h2 class="text-center py-5 p-color" data-aos="fade-down" data-aos-duration="1500">Tentang Kami</h2>
+        <!-- <h2 class="text-center py-5 p-color" data-aos="fade-down" data-aos-duration="1500">Tentang Kami</h2> -->
         <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12 img-wrapper" data-aos="zoom-in" data-aos-duration="1500">
-                <img src="<?= base_url('assets/image/cover/about-cover.png'); ?>" class="img-fluid rounded" alt="Cover Image" style="box-shadow: -2px 4px 5px 1px rgba(0, 0, 0, 0.3);">
+            <div class="col text-center py-4 mt-4 " data-aos="zoom-in" data-aos-duration="1500">
+                <img src="<?= base_url('assets/image/logo.png'); ?>" style="width: 20%;" class="img-fluid" alt="Logo">
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 mt-4 pe-0" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 img-wrapper text-center" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="<?= base_url('assets/image/cover/about-cover.jpg'); ?>" class="img-fluid rounded" alt="Cover Image" style="box-shadow: -2px 4px 5px 1px rgba(0, 0, 0, 0.3);">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 pe-0 pt-5 pt-lg-0 " data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
                 <h3 class="p-color">
                     About Orta.
                 </h3>
-                <p>
+                <p class="align-justify">
                     Orta merupakan Mother Brand produk Sanitary kami yang mengusung konsep kualitas yang baik, kenyamanan dan ketahanan, selain itu Orta sebagai merek Sanitary yang memberikan garansi produk selama 10 tahun, sehingga Orta menjadi sanitary pilihan anda.
                 </p>
-                <p>
+                <p class="align-justify">
                     Orta telah melakukan penjualan hampir diseluruh kota besar yang ada di Indonesia baik di Pulau Jawa, Sumatera, Kalimantan, Sulawesi, Bali dan juga di Papua. Orta tetap menjangkau seluruh plosok Indonesia untuk memenuhi kebutuhan Sanitary yang baik dan layak bagi masyarakat Indonesia.
                 </p>
                 <div class="row img-logo-wrapper pt-2">
@@ -35,7 +41,7 @@
 <!-- Product -->
 <section class="pt-5" id="product">
     <div class="container">
-        <h2 class="text-center p-color py-5">
+        <h2 class="text-center p-color pt-5">
             Produk Orta
         </h2>
 
@@ -142,7 +148,7 @@
         </div>
 
         <!-- Senza -->
-        <div class="row pc" id="senza">
+        <div class="row pc mb-5" id="senza">
             <div class="col-lg-6 col-md-6 col-sm-12 order-lg-0 order-md-0 order-sm-1 text-center" data-aos="zoom-in" data-aos-duration="1500">
                 <img src="<?= base_url('assets/image/product/senza-toilet.png'); ?>" class="img-fluid w-70 rounded" alt="Product Image">
             </div>

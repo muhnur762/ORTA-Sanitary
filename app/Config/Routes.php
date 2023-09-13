@@ -32,6 +32,7 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 $routes->get('/manufactur', 'Home::manufactur');
 $routes->get('/about', 'Home::about');
+$routes->get('/wwd', 'Home::wwd');
 
 /*
  * --------------------------------------------------------------------
