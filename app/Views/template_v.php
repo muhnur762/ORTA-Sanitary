@@ -42,30 +42,26 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 align-items-center gap-3 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link" href="../">Home</a>
+                                <a class="nav-link" href="../" data-i18n="nav_home"></a>
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#product" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    About Us
-                                </a>
+                                <a class="nav-link dropdown-toggle" href="#product" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-i18n="nav_about"></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="/about" class="dropdown-item">About Orta</a></li>
-                                    <li><a href="/manufactur" class="dropdown-item">Manufacturing</a></li>
+                                    <li><a href="/about" class="dropdown-item" data-i18n="nav_about_orta"></a></li>
+                                    <li><a href="/manufactur" class="dropdown-item" data-i18n="nav_about_manufacturing"></a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#product" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    What We Do
-                                </a>
+                                <a class="nav-link dropdown-toggle" href="#product" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-i18n="nav_wwd"></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="/wwd" class="dropdown-item">CSR program</a></li>
-                                    <li><a href="/wwd" class="dropdown-item">Our Projects</a></li>
+                                    <li><a href="/wwd" class="dropdown-item" data-i18n="nav_wwd_csr"></a></li>
+                                    <li><a href="/wwd" class="dropdown-item" data-i18n="nav_wwd_project"></a></li>
                                 </ul>
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#product" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" href="#product" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-i18n="nav_product">
                                     Product
                                 </a>
                                 <ul class="dropdown-menu">
@@ -76,7 +72,16 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="<?= base_url('assets/docs/katalog.pdf'); ?>" target="_blank" class="btn btn-primary btn-catalogue px-4 m-1 rounded-pill">Catalog</a>
+                                <a href="<?= base_url('assets/docs/katalog.pdf'); ?>" target="_blank" class="btn btn-primary btn-catalogue px-4 m-1 rounded-pill" data-i18n="nav_catalog"></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle px-4 border-blue rounded-pill" href="#product" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                   <i class="bi bi-translate me-1"></i> <span data-i18n="nav_language"></span> 
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><button class="dropdown-item" onclick="changeLanguage('en')">EN</button></li>
+                                    <li><button class="dropdown-item" onclick="changeLanguage('id')">ID</button></li>
+                                </ul>
                             </li>
                         </ul>
                     </div>
@@ -106,14 +111,14 @@
                         <div class="col-12 col-md-3 col-lg-3 order-2 py-3">
                             <h5 class="fw-normal">Menu</h5>
                             <ul class="list-unstyled">
-                                <li class="my-3"><a href="/" class="text-white fw-light text-decoration-none">Home</a></li>
-                                <li class="my-3"><a href="/about" class="text-white fw-light text-decoration-none">About Orta</a></li>
-                                <li class="my-3"><a href="/about" class="text-white fw-light text-decoration-none">Manufacturing</a></li>
-                                <li class="my-3"><a href="/wwd" class="text-white fw-light text-decoration-none">What We Do</a></li>
+                                <li class="my-3"><a href="/" class="text-white fw-light text-decoration-none" data-i18n="nav_home"></a></li>
+                                <li class="my-3"><a href="/about" class="text-white fw-light text-decoration-none" data-i18n="nav_about_orta"></a></li>
+                                <li class="my-3"><a href="/about" class="text-white fw-light text-decoration-none" data-i18n="nav_about_manufacturing"></a></li>
+                                <li class="my-3"><a href="/wwd" class="text-white fw-light text-decoration-none" data-i18n="nav_wwd"></a></li>
                             </ul>
                         </div>
                         <div class="col-12 col-md-3 col-lg-3 order-3 py-3">
-                            <h5 class="fw-normal">Product</h5>
+                            <h5 class="fw-normal" data-i18n="nav_product"></h5>
                             <ul class="list-unstyled">
                                 <li class="my-3"><a href="/about#primo" class="text-white fw-light text-decoration-none">Primo</a></li>
                                 <li class="my-3"><a href="/about#savio" class="text-white fw-light text-decoration-none">Savio</a></li>
@@ -122,7 +127,7 @@
                             </ul>
                         </div>
                         <div class="col-12 col-md-4 col-lg-4 order-4 py-3">
-                            <h5 class="fw-normal">Contact Us</h5>
+                            <h5 class="fw-normal" data-i18n="footer_cu"></h5>
                             <ul class="list-unstyled">
                                 <li class="my-3">
                                     <p class="text-white fw-light"><i class="bi bi-globe2"></i> www.orta.co.id</p>

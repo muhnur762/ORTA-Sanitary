@@ -19,15 +19,9 @@
                 <img src="<?= base_url('assets/image/cover/about-cover.jpg'); ?>" class="img-fluid rounded" alt="Cover Image" style="box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;">
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 pe-0 pt-5 pt-lg-0 " data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
-                <h3 class="p-color">
-                    About Orta.
-                </h3>
-                <p class="align-justify">
-                    Orta merupakan Mother Brand produk Sanitary kami yang mengusung konsep kualitas yang baik, kenyamanan dan ketahanan, selain itu Orta sebagai merek Sanitary yang memberikan garansi produk selama 10 tahun, sehingga Orta menjadi sanitary pilihan anda.
-                </p>
-                <p class="align-justify">
-                    Orta telah melakukan penjualan hampir diseluruh kota besar yang ada di Indonesia baik di Pulau Jawa, Sumatera, Kalimantan, Sulawesi, Bali dan juga di Papua. Orta tetap menjangkau seluruh plosok Indonesia untuk memenuhi kebutuhan Sanitary yang baik dan layak bagi masyarakat Indonesia.
-                </p>
+                <h3 class="p-color" data-i18n="nav_about_orta"></h3>
+                <p class="align-justify" data-i18n="about_p1"></p>
+                <p class="align-justify" data-i18n="about_p2"></p>
                 <div class="row img-logo-wrapper pt-2">
                     <img src="<?= base_url('assets/image/logo/sgs-cer.jpg'); ?>" class="img-fluid col-lg-4 col-md-3 col-3 p-0" alt="Certificate Image">
                     <img src="<?= base_url('assets/image/logo/iso-cer.png'); ?>" class="img-fluid col-lg-4 col-md-3 col-3 p-0" alt="Certificate Image">
@@ -41,9 +35,7 @@
 <!-- Product -->
 <section class="py-5" id="product">
     <div class="container">
-        <h2 class="text-center p-color pt-5">
-            Produk Orta
-        </h2>
+        <h2 class="text-center p-color pt-5" data-i18n="about_heading"></h2>
 
         <!-- Primo -->
         <div class="row pc" id="primo">
@@ -56,15 +48,8 @@
                         <img src="<?= base_url('assets/image/product/primo.png'); ?>" class="img-fluid" alt="Detail Product">
                     </div>
                     <div class="col-6">
-                        <h4 class="fw-bold text-end">
-                            Toilet Jongkok
-                        </h4>
-                        <p class="fs-5 fw-light text-end">
-                            Toilet Jongkok hadir dengan ukuran
-                            yang lebih besar untuk melengkapi kebutuhan
-                            sanitasi anda. Kini hadir dengan
-                            variasi warna yang lebih lengkap.
-                        </p>
+                        <h4 class="fw-bold text-end" data-i18n="about_squat"></h4>
+                        <p class="fs-5 fw-light text-end" data-i18n="primo_desc"></p>
                     </div>
                 </div>
             </div>
@@ -72,7 +57,7 @@
                 <img src="<?= base_url('assets/image/product-color/putih.jpg'); ?>" class="img-product img-fluid rounded w-70" id="img-primo" alt="Product Image">
             </div>
             <div class="row w-50 mx-auto order-2 order-sm-2 pt-5 text-center" data-aos="fade-up" data-aos-duration="1500">
-                <h3 class="p-color">Tersedia dalam 4 Warna</h3>
+                <h3 class="p-color" data-i18n="about_4_color"></h3>
                 <div class="row w-70 mx-auto thumb" id="thumb-primo">
                     <button class="btn-color col-3 pe-0" data-src="<?= base_url('assets/image/product-color/putih.jpg'); ?>">
                         <img src="<?= base_url('assets/image/color/putih.png'); ?>" class="img-fluid img-color " alt="color">
@@ -101,15 +86,8 @@
                 </h1>
                 <div class="row pt-3">
                     <div class="col-6">
-                        <h4 class="fw-bold ">
-                            Toilet Jongkok
-                        </h4>
-                        <p class="fs-5 fw-light ">
-                            Toilet jongkok dengan
-                            desain minimalis, tersedia
-                            dalam variasi warna yang
-                            lebih lengkap..
-                        </p>
+                        <h4 class="fw-bold " data-i18n="about_squat"></h4>
+                        <p class="fs-5 fw-light" data-i18n="savio_desc"></p>
                     </div>
                     <div class="col-6">
                         <img src="<?= base_url('assets/image/product/savio.png'); ?>" class="img-fluid" alt="Detail Product">
@@ -117,7 +95,7 @@
                 </div>
             </div>
             <div class="row w-50 mx-auto order-2 order-sm-2 pt-5 text-center" data-aos="fade-up" data-aos-duration="1500">
-                <h3 class="p-color">Tersedia dalam 4 Warna</h3>
+                <h3 class="p-color" data-i18n="about_4_color"></h3>
                 <div class="row w-70 mx-auto thumb" id="thumb-savio">
                     <button class="btn-color col-3 pe-0" data-src="<?= base_url('assets/image/product-color/putih.jpg'); ?>">
                         <img src="<?= base_url('assets/image/color/putih.png'); ?>" class="img-fluid img-color " alt="color">
@@ -146,16 +124,8 @@
                         <img src="<?= base_url('assets/image/product/serio.png'); ?>" class="img-fluid" alt="Detail Product">
                     </div>
                     <div class="col-6">
-                        <h4 class="fw-bold text-end">
-                            Toilet Jongkok
-                        </h4>
-                        <p class="fs-5 fw-light text-end">
-                            Toilet jongkok dengan desain
-                            minimalis dan saluran air
-                            berbentuk
-                            corong. Tersedia dengan variasi
-                            warna yang lebih lengkap.
-                        </p>
+                        <h4 class="fw-bold text-end" data-i18n="about_squat"></h4>
+                        <p class="fs-5 fw-light text-end" data-i18n="serio_desc"></p>
                     </div>
                 </div>
             </div>
@@ -163,7 +133,7 @@
                 <img src="<?= base_url('assets/image/product-color/pink.jpg'); ?>" class="img-fluid w-70 rounded" id="img-serio" alt="Product Image">
             </div>
             <div class="row w-50 mx-auto order-2 order-sm-2 pt-5 text-center" data-aos="fade-up" data-aos-duration="1500">
-                <h3 class="p-color">Tersedia dalam 4 Warna</h3>
+                <h3 class="p-color" data-i18n="about_4_color"></h3>
                 <div class="row w-70 mx-auto thumb" id="thumb-serio">
                     <button class="btn-color col-3 pe-0" data-src="<?= base_url('assets/image/product-color/putih.jpg'); ?>">
                         <img src="<?= base_url('assets/image/color/putih.png'); ?>" class="img-fluid img-color " alt="color">
@@ -192,16 +162,8 @@
                 </h1>
                 <div class="row pt-3">
                     <div class="col-6">
-                        <h4 class="fw-bold ">
-                            Duduk Siram
-                        </h4>
-                        <p class="fs-5 fw-light ">
-                            Senza merupakan
-                            toilet
-                            duduk klasik
-                            dengan sistem
-                            penyiraman manual.
-                        </p>
+                        <h4 class="fw-bold " data-i18n="about_flush"></h4>
+                        <p class="fs-5 fw-light " data-i18n="senza_desc"></p>
                     </div>
                     <div class="col-6 mt-0">
                         <img src="<?= base_url('assets/image/product/senza.png'); ?>" class="img-fluid" alt="Detail Product">
@@ -209,7 +171,7 @@
                 </div>
             </div>
             <div class="row w-50 mx-auto order-2 order-sm-2 pt-5 text-center" data-aos="fade-up" data-aos-duration="1500">
-                <h3 class="p-color">Tersedia dalam 2 Warna</h3>
+                <h3 class="p-color" data-i18n="about_2_color"></h3>
                 <div class="row w-40 mx-auto thumb" id="thumb-senza">
                     <button class="btn-color col-6 pe-0" data-src="<?= base_url('assets/image/product-color/duduk-putih.jpg'); ?>">
                         <img src="<?= base_url('assets/image/color/putih.png'); ?>" class="img-fluid img-color " alt="color">
