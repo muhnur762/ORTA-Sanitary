@@ -49,6 +49,14 @@
   border: none;
 }
 
+.border-blue {
+  border: 1px solid #06629f;
+}
+
+.border-blue:hover {
+  border: 1px solid #adb5bd;
+}
+
 .align-justify {
   text-align: justify;
 }

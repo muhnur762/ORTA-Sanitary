@@ -11,12 +11,10 @@
 <!-- About -->
 <section id="about" class="h-100 mb-5">
     <div class="container pt-10">
-        <h2 class="text-center py-5 p-color" data-aos="fade-down" data-aos-duration="1500">About Manufacturing</h2>
+        <h2 class="text-center py-5 p-color" data-aos="fade-down" data-aos-duration="1500" data-i18n="manufactur_heading"></h2>
         <div class="row d-flex justify-content-center">
             <div class="col-lg-8 col-md-12 col-sm-12 mt-4 pe-0 text-center" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
-                <p>
-                    Setiap produk yang dikeluarkan sudah melalui proses produksi dan pengawasan yang baik oleh Tim kami sehingga produk yang sampai di konsumen dapat memuaskan konsumen yang menjadi salah satu prioritas kami. Dengan kemampuan mesin dan tenaga SDM yang dimiliki, Orta yakin dapat memberikan produk dengan kwalitas yang baik.
-                </p>
+                <p data-i18n="manufactur_desc"></p>
             </div>
         </div>
     </div>
@@ -26,16 +24,12 @@
 <!-- manufactur -->
 <section class="pt-5" id="product">
     <div class="container">
-        <h2 class="text-center p-color py-5">
-            Proses Produksi
-        </h2>
+        <h2 class="text-center p-color py-5" data-i18n="manufactur_process"></h2>
 
         <!-- Casting -->
         <div class="row py-3">
             <div class=" col-6 d-grid align-content-center  mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
-                <h3 class="p-color text-lg-end text-md-end text-center fw-semibold">
-                    Casting
-                </h3>
+                <h3 class="p-color text-lg-end text-md-end text-center fw-semibold" data-i18n="manufactur_cast"></h3>
             </div>
             <div class=" col-6  " data-aos="zoom-in" data-aos-duration="1500">
                 <img src="<?= base_url('assets/image/logo/defauld.jpg'); ?>" class="img-fluid rounded w-50" alt="manufactur Image">
@@ -48,18 +42,14 @@
                 <img src="<?= base_url('assets/image/product/draying.png'); ?>" class="img-fluid w-50 rounded" alt="manufactur Image">
             </div>
             <div class="col-6 d-grid align-content-center mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
-                <h3 class="p-color  text-lg-start text-md-start text-center fw-semibold">
-                    Draying
-                </h3>
+                <h3 class="p-color  text-lg-start text-md-start text-center fw-semibold" data-i18n="manufactur_dray"></h3>
             </div>
         </div>
 
         <!--Inspection -->
         <div class="row py-3">
             <div class=" col-6 d-grid align-content-center mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
-                <h3 class="p-color  text-lg-end text-md-end text-center fw-semibold">
-                    Inspection
-                </h3>
+                <h3 class="p-color  text-lg-end text-md-end text-center fw-semibold" data-i18n="manufactur_inspect"></h3>
             </div>
             <div class=" col-6" data-aos="zoom-in" data-aos-duration="1500">
                 <img src="<?= base_url('assets/image/product/inspection.png'); ?>" class="img-fluid rounded w-50" alt="manufactur Image">
@@ -72,18 +62,14 @@
                 <img src="<?= base_url('assets/image/product/glazing.png'); ?>" class="img-fluid w-50 rounded" alt="manufactur Image">
             </div>
             <div class="col-6 order-lg-1 order-md-1 order-sm-0 d-grid align-content-center mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
-                <h3 class="p-color  text-lg-start text-md-start text-center fw-semibold">
-                    Glazing
-                </h3>
+                <h3 class="p-color  text-lg-start text-md-start text-center fw-semibold" data-i18n="manufactur_glaze"></h3>
             </div>
         </div>
 
         <!-- Loading -->
         <div class="row py-3">
             <div class=" col-6 d-grid align-content-center mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
-                <h3 class="p-color  text-lg-end text-md-end text-center fw-semibold">
-                    Loading
-                </h3>
+                <h3 class="p-color  text-lg-end text-md-end text-center fw-semibold" data-i18n="manufactur_load"></h3>
             </div>
             <div class=" col-6" data-aos="zoom-in" data-aos-duration="1500">
                 <img src="<?= base_url('assets/image/product/loading.png'); ?>" class="img-fluid rounded w-50" alt="manufactur Image">
@@ -96,18 +82,14 @@
                 <img src="<?= base_url('assets/image/product/firing.png'); ?>" class="img-fluid w-50 rounded" alt="manufactur Image">
             </div>
             <div class="col-6 d-grid align-content-center mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
-                <h3 class="p-color  text-lg-start text-md-start text-center fw-semibold">
-                    Firing
-                </h3>
+                <h3 class="p-color  text-lg-start text-md-start text-center fw-semibold" data-i18n="manufactur_fire"></h3>
             </div>
         </div>
 
         <!-- Body Inspection -->
         <div class="row py-3">
             <div class=" col-6 d-grid align-content-center mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
-                <h3 class="p-color  text-lg-end text-md-end text-center fw-semibold">
-                    Body Inspection
-                </h3>
+                <h3 class="p-color  text-lg-end text-md-end text-center fw-semibold" data-i18n="manufactur_body"></h3>
             </div>
             <div class=" col-6" data-aos="zoom-in" data-aos-duration="1500">
                 <img src="<?= base_url('assets/image/logo/defauld.jpg'); ?>" class="img-fluid rounded w-50" alt="manufactur Image">
@@ -120,18 +102,14 @@
                 <img src="<?= base_url('assets/image/logo/defauld.jpg'); ?>" class="img-fluid w-50 rounded" alt="manufactur Image">
             </div>
             <div class="col-6 d-grid align-content-center mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
-                <h3 class="p-color  text-lg-start text-md-start text-center fw-semibold">
-                    Packing
-                </h3>
+                <h3 class="p-color  text-lg-start text-md-start text-center fw-semibold" data-i18n="manufactur_pack"></h3>
             </div>
         </div>
 
         <!-- Delivering -->
         <div class="row py-3">
             <div class=" col-6 d-grid align-content-center mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
-                <h3 class="p-color  text-lg-end text-md-end text-center fw-semibold">
-                    Delivering
-                </h3>
+                <h3 class="p-color  text-lg-end text-md-end text-center fw-semibold" data-i18n="manufactur_deliver"></h3>
             </div>
             <div class=" col-6" data-aos="zoom-in" data-aos-duration="1500">
                 <img src="<?= base_url('assets/image/logo/defauld.jpg'); ?>" class="img-fluid rounded w-50" alt="manufactur Image">

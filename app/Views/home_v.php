@@ -34,13 +34,13 @@
             <h1 class="p-color fs-heading fw-medium" data-aos="fade-down" data-aos-duration="2000">PT Karya Bumimas Persada</h1>
             <!-- data-aos="fade-down" data-aos-duration="2000" data-aos-delay="200" -->
             <div data-aos="fade-down" data-aos-duration="2000" data-aos-delay="200">
-                <p class="p-color mb-3 align-justify w-85">
+                <p class="p-color mb-3 align-justify w-85" data-i18n="nav_home_p1">
                     PT Karya Bumimas Persada merupakan perusahaan yang membuat Ceramics Sanitary dengan merek ORTA yang telah berdiri sejak tahun 2012 di Kabupaten Bogor, Jawa Barat, Indonesia.
                 </p>
-                <p class="p-color mb-3 align-justify w-85">
+                <p class="p-color mb-3 align-justify w-85" data-i18n="nav_home_p2">
                     ORTA mengeluarkan produk unggulan yaitu Squat Toilet (Kloset Jongkok). Selain produk tersebut ORTA juga mengeluarkan Toilet Flush (Kloset duduk tangki/siram) dan akan segera mengeluarkan produk Wastafel.
                 </p>
-                <p class="p-color mb-3 align-justify w-85">
+                <p class="p-color mb-3 align-justify w-85" data-i18n="nav_home_p3">
                     Produk kami mengutamakan kualitas yang baik agar pelanggan puas menggunakan produk ORTA dan wajib menjadi kloset pilihan anda yang dapat diaplikasikan dalam kehidupan sehari-hari.
                 </p>
             </div>
