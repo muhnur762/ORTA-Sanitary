@@ -30,6 +30,9 @@
 .w-85 {
   width: 85%;
 }
+.w-lg-85 {
+  width: 85%;
+}
 
 .pt-10 {
   padding-top: 60px;
@@ -121,6 +124,10 @@ footer {
     font-size: 80%;
   }
 
+  .w-lg-85 {
+    width: 100%;
+  }
+
   #home > .row > .col-lg-6 {
     text-align: center;
   }
@@ -151,6 +158,10 @@ footer {
 @media (max-width: 576px) {
   html {
     font-size: 65%;
+  }
+
+  .w-lg-85 {
+    width: 100%;
   }
 
   footer {

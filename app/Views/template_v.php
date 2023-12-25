@@ -79,8 +79,8 @@
                                    <i class="bi bi-translate me-1"></i> <span data-i18n="nav_language"></span> 
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><button class="dropdown-item" onclick="changeLanguage('en')">EN</button></li>
-                                    <li><button class="dropdown-item" onclick="changeLanguage('id')">ID</button></li>
+                                    <li><button class="dropdown-item" onclick="changeLanguage('en')">English</button></li>
+                                    <li><button class="dropdown-item" onclick="changeLanguage('id')">Indonesia</button></li>
                                 </ul>
                             </li>
                         </ul>
@@ -102,7 +102,7 @@
                     <a href="#home">
                         <img src="<?= base_url('assets/image/logo/logo-white.png'); ?>" alt="Logo" class="img-fluid w-50">
                     </a>
-                    <p class="fw-regular pt-3">Toilet Pilihan Kita!</p>
+                    <p class="fw-regular pt-3">Everyday with Orta</p>
                 </div>
                 <div class="col-9 col-md-9 col-lg-9 order-second">
                     <div class="row">
